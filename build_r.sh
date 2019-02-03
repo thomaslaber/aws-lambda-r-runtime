@@ -32,8 +32,8 @@ cp /usr/lib64/libgomp.so.1 lib/
 cp /usr/lib64/libquadmath.so.0 lib/
 cp /usr/lib64/libstdc++.so.6 lib/
 sudo yum install -y openssl-devel libxml2-devel
-./bin/Rscript -e 'chooseCRANmirror(graphics=FALSE, ind=34); install.packages("httr")'
-./bin/Rscript -e 'chooseCRANmirror(graphics=FALSE, ind=34); install.packages("aws.s3")'
-./bin/Rscript -e 'chooseCRANmirror(graphics=FALSE, ind=34); install.packages("xgboost")'
+./bin/Rscript -e 'chooseCRANmirror(graphics=FALSE, ind=32); install.packages("httr")'
+./bin/Rscript -e 'chooseCRANmirror(graphics=FALSE, ind=32); install.packages("aws.s3")'
+./bin/Rscript -e 'chooseCRANmirror(graphics=FALSE, ind=32); install.packages("xgboost")'
 
 zip -r R-$VERSION.zip bin/ lib/ lib64/ etc/ library/ doc/ modules/ share/
