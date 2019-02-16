@@ -1,0 +1,1 @@
+{"errorType":"Runtime.ExitError","errorMessage":"RequestId: 56600ff5-0325-4861-8ed9-0ab4610df733 Error: Couldn't find valid bootstrap(s): [/var/task/bootstrap /opt/bootstrap]"}
