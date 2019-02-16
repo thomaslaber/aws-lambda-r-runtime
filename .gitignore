@@ -3,3 +3,4 @@ R/
 R.orig/
 *.log
 input.txt
+example/.Rhistory
